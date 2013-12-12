@@ -1,0 +1,30 @@
+{
+  "name": "jing.fm ndual",
+  "main": "http://jn.whattoc.com/startup",
+  "node-main": "index.js",
+  "node-remote": "*",
+  "chromium-args": "--disable-web-security",
+  "webkit": {
+    "plugin": true
+  },
+  "dependencies": {
+    "request": "~2.27.0",
+    "socket.io": "~0.9.16"
+  },
+  "window": {
+    "toolbar": false, 
+    "width": 800,
+    "height": 600,
+    "resizable": false
+  },
+  "licenses":[
+    {
+        "type": "GPLv2" 
+    } 
+  ],
+  "maintainers":[{
+    "name": "youyudehexie",
+    "email": "youyudehexie@gmail.com",
+    "web": "blog.whattoc.com"
+  }]
+}
